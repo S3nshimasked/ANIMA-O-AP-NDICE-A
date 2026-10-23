@@ -1,0 +1,127 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNgZzNNh6QhyFmKwuaDgszF",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/S3nshimasked/ANIMA-O-AP-NDICE-A/blob/main/estudo%20python(build%20in%20types)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "oIKZe7QRsCAZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "chamando funções"
+      ],
+      "metadata": {
+        "id": "v6c4B3BhsBnk"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def funcao_1(nome):\n",
+        "    print('meu nome é' +  nome)\n",
+        "    print('python')\n",
+        "meu_nome =  'victor'\n",
+        "funcao_1(meu_nome)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZuTVWbs_q9LE",
+        "outputId": "380d091c-c985-45f9-b7e4-49766129c2b4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "meu nome évictor\n",
+            "python\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def soma_quadrados(a,b):\n",
+        "  resultado = a**2+b**2\n",
+        "  return resultado\n",
+        "n_1=3\n",
+        "n_2=4\n",
+        "soma = soma_quadrados(n_1,n_2)\n"
+      ],
+      "metadata": {
+        "id": "ouURT1SIvfwJ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def funcao1():\n",
+        "    print('funcao1')\n",
+        "def funcao2():\n",
+        "    print('funcao2')\n",
+        "\n",
+        "if __name__ == '__main__':\n",
+        "    funcao1()\n",
+        "    funcao2()\n",
+        "    print('esse codigo esta sendo executado como script')\n",
+        "else:\n",
+        "    print('esse codigo esta sendo chamado como modulo')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cOtLKT9JNkVw",
+        "outputId": "b7c2a850-5858-486c-af05-c475dd22e2b8"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "funcao1\n",
+            "funcao2\n",
+            "esse codigo esta sendo executado como script\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
